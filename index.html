@@ -4,12 +4,10 @@
   <script>
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
       // true for mobile device
-      alert("Mobile")
+      window.location.replace('exp://192.168.0.178:19000/--/Message');
     }else{
-      alert("Not mobile")
+      alert("Please open link from a mobile device.")
     }
-
-//window.location.replace('exp://192.168.0.178:19000/--/Message');
 </script>
 </body>
 </html>
